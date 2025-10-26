@@ -124,7 +124,7 @@ html, body, #root { height:100%; margin:0; padding:0; }
 
 Create /.env (or .env.local) next to package.json:
 
-Backend URL
+ENTER THE Backend URL IN THE FILE :
 
 VITE_BACKEND_URL=http://127.0.0.1:8010
 
