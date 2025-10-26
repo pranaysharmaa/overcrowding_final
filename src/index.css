@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ✅ FORCE PIN SEARCH BAR LIKE GOOGLE MAPS */
+#searchbar-container {
+  position: fixed !important;
+  top: 24px !important;   /* spacing from top */
+  left: 24px !important;  /* spacing from left */
+  z-index: 999999 !important;
+  width: min(92vw, 480px) !important;
+  pointer-events: auto !important;
+}
